@@ -4,7 +4,10 @@ applications:
   host: backlog-pal-sumit
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-sumit.apps.longs.pal.pivotal.io
+  #env:
+    #REGISTRATION_SERVER_ENDPOINT: https://registration-pal-sumit.apps.longs.pal.pivotal.io
+    env:
+        TRUST_CERTS: api.sys.longs.pal.pivotal.io
   services:
   - tracker-backlog-database
+  - tracker-serviceTemp-registry
