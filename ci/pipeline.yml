@@ -3,8 +3,8 @@ resources:
 - name: pal-tracker
   type: git
   source:
-    uri: {{github-repo}}
-    branch: my-work
+    uri: {{github-repository}}
+    branch: mywork
     private_key: {{github-private-key}}
 
 - name: version
@@ -50,7 +50,7 @@ resources:
 - name: cf
   type: cf
   source:
-    api: {{cf-url}}
+    api: {{cf-api-url}}
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
