@@ -11,7 +11,7 @@ applications:
       SECURITY_USER_PASSWORD: operations4red
   services:
   - tracker-allocations-database
-  - tracker-service-registry
+  - tracker-serviceTemp-registry
   - tracker-circuit-breaker-dashboard
   - tracker-amqp
   - tracker-sso
